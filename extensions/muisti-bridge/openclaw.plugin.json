@@ -1,0 +1,13 @@
+{
+  "id": "muisti-bridge",
+  "name": "Muisti (Advanced Memory)",
+  "version": "0.1.0",
+  "description": "Python-based vector/graph memory system with forgetting curves",
+  "entry": "index.ts",
+  "tools": ["muisti_search", "muisti_store", "muisti_recall", "muisti_stats"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
